@@ -1,0 +1,9 @@
+Dataset,Size,Language Support,Source,Quality Filter,Image Resolution,Training Use,Accessibility
+LAION-5B,5.85 billion image-text pairs,English (2.32B) + 100+ languages,Common Crawl (CLIP filtered),CLIP similarity threshold,Variable (typically 512px+),"Stable Diffusion, CLIP models",Open source (requires agreement)
+LAION-400M,400 million image-text pairs,Primarily English,Common Crawl (CLIP filtered),CLIP similarity threshold,Variable (typically 512px+),Stable Diffusion v1.0-1.2,Open source
+COCO-Text,173k text annotations in 63k images,Multiple languages,MS COCO dataset extension,Manual annotation quality,Variable (COCO images),Text detection research,Open source
+Common Crawl,Petabytes of web data,Multi-language,Web crawl archives,Raw web data (unfiltered),Variable web sizes,Foundation for LAION datasets,Public archives
+MS COCO,330k images with 2.5M captions,English,Flickr images with crowd annotations,Human verified,Variable,"Image captioning, VQA",Open source
+Visual Genome,108k images with 5.4M descriptions,English,Crowd-sourced annotations,Human verified,Variable,Scene understanding,Open source
+Flickr30k,31k images with 158k captions,English,Flickr images,Human verified,Variable,Image captioning,Open source
+ConceptualCaptions,3.3M image-caption pairs,English,Alt-text from web images,Basic text cleaning,Variable,Vision-language models,Open source (Google)

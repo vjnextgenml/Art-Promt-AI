@@ -1,0 +1,37 @@
+# artpromtAi Requirements
+# Core Dependencies for Text-to-Image Generation
+
+# Deep Learning Framework
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Hugging Face Libraries
+transformers>=4.21.0
+diffusers>=0.20.0
+accelerate>=0.20.0
+
+# Streamlit Web Framework
+streamlit>=1.25.0
+
+# Image Processing
+Pillow>=9.0.0
+opencv-python>=4.5.0
+
+# Tokenization
+tokenizers>=0.13.0
+
+# Scientific Computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Utilities
+tqdm>=4.64.0
+ftfy>=6.1.0
+regex>=2022.7.9
+
+# Optional: Fast CLIP tokenizer
+# instant-clip-tokenizer>=0.1.0
+
+# Optional: Model optimization
+# safetensors>=0.3.0
+# xformers>=0.0.20  # For memory optimization (requires CUDA)
